@@ -1,0 +1,160 @@
+body {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+h6,
+p {
+  text-align: center;
+  font-family: 'Taviraj', serif;
+  font-size: large;
+  font-weight: 400;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Saira', sans-serif;
+}
+
+.landing {
+  position: absolute;
+  text-align: center;
+  margin-left: 23%;
+  padding-right: 30%;
+}
+
+#home {
+  color: white;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/background/h_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 10%;
+}
+
+#services {
+  color: white;
+  width: 100%;
+  background-image: url(../images/background/s_image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 5%;
+  opacity: 0.9;
+}
+
+.contacts {
+  color: white;
+  width: 100%;
+  background-image: url(../images/background/c_image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 7%;
+}
+
+#about {
+  text-align: center;
+  padding: 7%;
+}
+
+#what-we-do {
+  text-align: center;
+  padding: 7%;
+}
+
+.we-do {
+  display: flex;
+}
+
+.do {
+  text-align: center;
+}
+
+input {
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: transparent;
+  padding-left: 10%;
+  margin-right: 10%;
+  color: white;
+  column-gap: 5%;
+}
+
+.textarea,
+textarea {
+  color: white;
+  background-color: transparent;
+  width: 800px;
+  padding: 5%;
+}
+
+.social-icon {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.foot {
+  padding: 4%;
+  text-align: center;
+}
+
+.img1 {
+  position: relative;
+}
+
+.para1,
+.para2,
+.para3 {
+  display: none;
+}
+
+.icon {
+  text-align: center;
+}
+
+.prjct {
+  opacity: 0.6;
+  position: absolute;
+  box-sizing: border-box;
+  border: 7px solid black;
+  width: 90%;
+  height: 100%;
+  color:red;
+  display: none;
+  top: 1px;
+  z-index: 2;
+  padding: 10%;
+  
+}
+
+.prjct:hover {
+  opacity: 0.2;
+  filter: Alpha(opacity=50);
+  
+}
+
+.disc1:hover .prjct {
+  opacity: 0.7;
+  display: inline;
+  background-color:white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px
+  
+}
+
+#portfolio {
+  margin: 10px;
+  padding: 7%;
+}
