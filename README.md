@@ -29,5 +29,5 @@ To access this project on your local files, you can clone it using these steps
 View [live](https://github.com/EugeneAbongo/DelaniStudio.git)
 ### Licence
 This project is under the  [MIT](license) license
-Abongo-Eugene/portfolio
+Abongo-Eugene/delani-studios
 
